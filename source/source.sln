@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Core", "Messil.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Infrastructure", "Messil.Infrastructure\Messil.Infrastructure.csproj", "{F3B11C73-84DA-405B-ABEB-FAF2955ECF2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.SignalR", "Messil.SignalR\Messil.SignalR.csproj", "{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Shared", "Messil.Shared\Messil.Shared.csproj", "{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F3B11C73-84DA-405B-ABEB-FAF2955ECF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B11C73-84DA-405B-ABEB-FAF2955ECF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B11C73-84DA-405B-ABEB-FAF2955ECF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Messil.Core\Messil.Core.csproj" />
-    <ProjectReference Include="..\Messil.Infrastructure\Messil.Infrastructure.csproj" />
+    <Folder Include="Models\" />
+    <Folder Include="Components\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
   </ItemGroup>
 
 </Project>
