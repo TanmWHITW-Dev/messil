@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Web", "Messil.Web\Messil.Web.csproj", "{19CEBE77-521D-40E6-98F7-A273EFCF271A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messil.Web", "Messil.Web\Messil.Web.csproj", "{19CEBE77-521D-40E6-98F7-A273EFCF271A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Core", "Messil.Core\Messil.Core.csproj", "{49F7B0C8-022A-4860-B2FC-F92BA3B62E9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messil.Core", "Messil.Core\Messil.Core.csproj", "{49F7B0C8-022A-4860-B2FC-F92BA3B62E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Infrastructure", "Messil.Infrastructure\Messil.Infrastructure.csproj", "{F3B11C73-84DA-405B-ABEB-FAF2955ECF2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messil.Infrastructure", "Messil.Infrastructure\Messil.Infrastructure.csproj", "{F3B11C73-84DA-405B-ABEB-FAF2955ECF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.SignalR", "Messil.SignalR\Messil.SignalR.csproj", "{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messil.SignalR", "Messil.SignalR\Messil.SignalR.csproj", "{CC8AFCE0-EAF9-434D-9D04-F208AD781DB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Shared", "Messil.Shared\Messil.Shared.csproj", "{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messil.Shared", "Messil.Shared\Messil.Shared.csproj", "{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.Identity", "Messil.Identity\Messil.Identity.csproj", "{50342F78-6D6C-412A-BD7B-1A4C837C870B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messil.API", "Messil.API\Messil.API.csproj", "{6EA9C270-C732-4F2E-B753-5BE7F4B1AC30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF9FD22-1F7D-43BB-B5F1-A7232CC77925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50342F78-6D6C-412A-BD7B-1A4C837C870B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50342F78-6D6C-412A-BD7B-1A4C837C870B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50342F78-6D6C-412A-BD7B-1A4C837C870B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50342F78-6D6C-412A-BD7B-1A4C837C870B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA9C270-C732-4F2E-B753-5BE7F4B1AC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA9C270-C732-4F2E-B753-5BE7F4B1AC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA9C270-C732-4F2E-B753-5BE7F4B1AC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA9C270-C732-4F2E-B753-5BE7F4B1AC30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
